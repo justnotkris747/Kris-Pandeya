@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashain Vacation Assignment - Computer Science</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0faff; 
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #005f73; 
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 4px solid #004e5e;
+        }
+
+        header img {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            color: #007d8f; 
+        }
+
+        header h2 {
+            font-size: 1.6em;
+            margin-bottom: 15px;
+            color: #007d8f; 
+        }
+
+        header p {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #007d8f; 
+        }
+
+        .submission-details {
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .submission-details div {
+            flex: 1;
+            padding: 25px;
+            margin: 0 20px;
+            background-color: #f0e6c2; 
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .submission-details h3 {
+            font-size: 1.5em;
+            color: #004e5e;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #004e5e;
+            padding-bottom: 10px;
+        }
+
+        .submission-details p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .submission-details p strong {
+            color: #b22222; 
+        }
+
+        .submission-details p span {
+            color: #000000; 
+            font-weight: bold;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #004e5e, #009688);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            font-size: 1.4em;
+            position: relative;
+            border-top: 4px solid #004e5e;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        footer a {
+            color: #e8f1f2; 
+            font-size: 1.3em;
+            text-decoration: none;
+            border: 2px solid #e8f1f2;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: background-color 0.3s, color 0.3s;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        footer a:hover {
+            background-color: #e8f1f2;
+            color: #004e5e;
+        }
+
+        .footer-icon {
+            font-size: 2.2em;
+            color: #e8f1f2;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        @media (max-width: 768px) {
+            .submission-details {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .submission-details div {
+                margin: 20px 0;
+                width: 80%;
+            }
+
+            footer a {
+                font-size: 1.1em;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+    <script>
+        function openFamilyPage() {
+            window.open("family.html", "_self");  
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <img src="triyog_logo.svg" alt="Triyog High School Logo">
+        <h1>Dashain Vacation Assignment</h1>
+        <h2>Computer Science</h2>
+        <p>11 November</p>
+    </header>
+
+    <section class="submission-details">
+        <div>
+            <h3>Submitted By</h3>
+            <p><strong>Name:</strong> <span>Kris Pandeya</span></p>
+            <p><strong>Grade:</strong> <span>VIII A</span></p>
+            <p><strong>Designation:</strong> <span>Student</span></p>
+            <p><strong>Roll No:</strong> <span>14</span></p>
+        </div>
+
+        <div>
+            <h3>Submitted To</h3>
+            <p><strong>Name:</strong> <span>Seema Limbu</span></p>
+            <p><strong>Grade:</strong> <span>VIII - X</span></p>
+            <p><strong>Designation:</strong> <span>Teacher</span></p>
+            <p><strong>Subject:</strong> <span>Computer Science</span></p>
+        </div>
+    </section>
+
+    <footer>
+        <p><span class="footer-icon">🌟</span>Discover More About My Family</p>
+        <a href="javascript:void(0);" onclick="openFamilyPage()">Visit Family Page</a>
+    </footer>
+</body>
+</html>
