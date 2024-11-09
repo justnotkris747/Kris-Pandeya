@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #007d8f;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            border-bottom: 4px solid #004e5e;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin: 0;
+        }
+
+        .family-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+        }
+
+        .family-member {
+            background-color: #fff;
+            width: 280px;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            text-decoration: none; /* Remove underline from links */
+        }
+
+        .family-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .family-member h3 {
+            font-size: 2em;
+            color: #004e5e;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .family-member p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Hover Effect */
+        .family-member:hover {
+            transform: scale(1.08);
+            background-color: #e0f7fa;
+        }
+
+        footer {
+            background-color: #007d8f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-top: 4px solid #004e5e;
+            font-size: 1.2em;
+        }
+
+        footer a {
+            color: #e8f1f2;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #e8f1f2;
+            border-radius: 25px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        footer a:hover {
+            background-color: #e8f1f2;
+            color: #007d8f;
+        }
+
+        footer p {
+            margin-top: 157px;
+            font-style: italic;
+            font-size: 1.1em;
+            color: #e8f1f2;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Family</h1>
+    </header>
+
+    <div class="family-container">
+        <a href="father.html" class="family-member">
+            <h3>Father</h3>
+            <p>Churamani Pandeya</p>
+            <p>Enjoys hiking and photography.</p>
+        </a>
+
+        <div class="family-member">
+            <h3>Mother</h3>
+            <p>Krishna Kumari Acharya</p>
+            <p>Loves cooking and gardening.</p>
+        </div>
+
+        <a href="brother.html" class="family-member">
+            <h3>Brother</h3>
+            <p>Ritesh Panthee</p>
+            <p>Passionate about writing and learning.</p>
+        </a>
+
+        <a href="kris.html" class="family-member">
+            <h3>Myself</h3>
+            <p>Kris Pandeya</p>
+            <p>Enjoys coding and exploring new projects.</p>
+        </a>
+    </div>
+
+    <footer>
+        <a href="primary_website.html">Back to Home</a>
+        <p>Family: A group of one or more parents and their children living together as a unit.</p>
+    </footer>
+
+</body>
+</html>
